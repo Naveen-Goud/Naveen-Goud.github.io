@@ -1,0 +1,361 @@
+nav{
+    background-color: #40916c;
+    
+}
+section{
+     background: url(../images/vjitlogo.jpeg);
+     background-size: cover;
+     height: 100vh;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #358f80;
+  }
+  .active{
+    background-color: rgb(110, 152, 118);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .container{
+      
+       length: 520px;
+       width: 100%;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #78c6a3;
+    border-radius: 3%;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+ 
+
+  .container1{
+    padding: auto;
+    height:90px;
+    width:200px;
+    
+  }
+  .container {
+    column-count: 1;
+  }
+  .container2{
+    padding: auto;
+    height:90px;
+    width:200px;
+    background-color: darkolivegreen;
+  }
+  .container2 ul{
+    background-color: transparent;
+  }
+
+
+
+  .logo{
+    text: bold; 
+  }
+  
+  .table1{
+    border: #111;
+    border-radius: 0%;
+    text-align: center;
+    text-decoration:#434f4f ;
+    border-radius: 5%;
+    width: 200px;
+    max-height: 450px;
+    background-color: #adc178;
+   padding: 2%;
+  
+  }
+  .table1 tr{
+    background-color: #6fe36b;
+    
+  }
+  .table1 tr:hover{
+    background-color: aliceblue;
+  }
+  .footer{
+    background-color: aquamarine;
+    max-width: 100%;
+  }
+
+  
+  .contactform{
+    padding: 2px 16px;
+    height: auto;
+    position: right;
+    background:#67b9bc;
+    min-width: 50%;
+    
+    
+  }
+  
+  .contactform div{
+    padding: 2%;
+    max-width: 100%;
+    
+  }
+ 
+  .contactsdetaails{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 5%;
+    background-color: rgb(234, 237, 228);
+    
+  }
+  .contactsdetaails div{
+    padding: 2%;
+    margin: 5%;
+    flex-wrap: wrap;
+    display: inline;
+    
+  }
+  .contactsdetaails h1{
+    justify-content: center;
+  }
+  .contactform1{
+    background-color: rgb(110, 152, 118);
+    align-items: center;
+    max-width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   }
+  
+  .footer::after{
+    content :"";
+    display: table;
+    clear:both;
+    padding: 5%;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      column-count: 2;
+    }
+    h1{
+    max-height: 10%;
+    }
+    .card1{
+      position:relative;
+    }
+  
+    
+   
+    
+    #form{
+      max-width: fit-content;
+    }
+   .left{
+    text-align: left;
+    padding: 2%;
+   }
+   
+   .container1{
+    padding: auto;
+    height:90px;
+    max-width:200px;
+    position:static;
+    background-color: darkolivegreen;
+  }
+  .card1{
+    position:absolute;
+    text-decoration: bold;
+  }
+  .section{
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+  }
+  }
+  
+.table{
+  border: #111;
+  border-radius: 0%;
+  text-align: center;
+  text-decoration:#434f4f ;
+  border-radius: 5%;
+  width: 200px;
+  max-height: 450px;
+  background-color: #99e2b4;
+ padding: 2%;
+
+}
+.table:hover{
+  background-color: #973aa8;
+  box-shadow: 0 8px 16px 0 rgba(155, 149, 149, 0.2);
+}
+.flex-container{
+  display:inline;
+  flex-wrap:wrap;
+  flex-direction:row;
+  max-width: 90%;
+  background-color: violet;
+  border: #111;
+  
+
+}
+.flex-container div{
+  height: 70px;
+  max-width: 30%;
+  padding: 2%;
+  border-radius: 3%;
+ 
+}
+.table{
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10%;
+  background-color: linear-gradient(#e66465, #9198e5);
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #2a4254;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float:right;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+   }
+
+.gal{
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 30px;
+}
+
+.gal img{
+  width: 100%;
+  cursor: pointer;
+}
+h2{
+  text-align:center;
+}
+
+
+
+.formBox {
+  padding: 15px;
+  text-align: center;
+  min-height: 50vh;
+  min-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  background: #65ab63;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+
+}
+
+h2 {
+  margin-bottom: -10px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+
+.flex-container1{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  background-color: #588157;
+  border-radius: 3%
+  
+
+}
+
+.flex-container1 div{
+  
+  background-color: rgb(180, 214, 126);
+  margin: 2%;
+  border-radius: 3%;
+  width: 100%;
+  
+  border-radius: 5%;
+  
+
+}
+.flex-container1 p{
+  text-align: center;
+  justify-content: center;
+}
+.container1 ul{
+  background-color: transparent;
+
+}
